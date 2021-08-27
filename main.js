@@ -76,9 +76,13 @@ function registrarOperador (evento){
 
 function calcularResultado (){
 
-    Number (display.value);
+    parseFloat (display.value);
 
-    display.value = display.value.replace (',','.');
+    for (let i = 1; i <= 10; i++){
+
+        display.value = display.value.replace (',','.');
+
+    }
 
     display.value = eval (display.value).toLocaleString ('BR');
 
