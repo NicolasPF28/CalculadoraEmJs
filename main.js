@@ -121,4 +121,4 @@ const eventoTeclado = (evento) => {
 
 }
 
-document.addEventListener ('keydown', mapearTeclado);
+document.addEventListener ('keydown', eventoTeclado);
