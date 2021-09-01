@@ -116,7 +116,7 @@ copiar.addEventListener ('click', copiarTexto);
 const eventoTeclado = (evento) => {
 
     const key = evento.key;
-    const teclaPermitida = () => Object.keys (mapaTeclado).indexOf (tecla) !== -1;
+    const teclaPermitida = () => Object.keys (mapaTeclado).indexOf (key) !== -1;
     if (teclaPermitida()) document.getElementById (mapaTeclado[key]).click ();
 
 }
