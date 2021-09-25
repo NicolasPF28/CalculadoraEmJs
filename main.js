@@ -73,7 +73,7 @@ const mapaTeclado = {
     '8'         : 'numeroOito',
     '9'         : 'numeroNove',
     '/'         : 'operadorDividir',
-    '*'         : 'operadorMultiplicar',
+    '*'         : 'operadorMultiplicacao',
     '-'         : 'operadorSubtrair',
     '+'         : 'operadorAdicionar',
     '='         : 'botaoCalcular',
